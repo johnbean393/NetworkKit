@@ -5,10 +5,7 @@ import PackageDescription
 let package = Package(
     name: "NetworkKit",
     platforms: [
-        .iOS(.v14),
-        .macOS(.v12),
-        .tvOS(.v14),
-        .watchOS(.v9)
+        .macOS(.v15),
     ],
     products: [
         .library(
